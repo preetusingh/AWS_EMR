@@ -1,4 +1,5 @@
 
+
 import java.util.Arrays;
 import java.util.Scanner;
 import java.io.File;
@@ -16,13 +17,8 @@ public class randomSetgenerate {
 		int radius = sc.nextInt();
 		int diameter = 2*radius;
 		
-		System.out.print("Enter the Centre value of the Circle as x1 and y1: ");
-		int x1 = sc.nextInt();
-		int y1 = sc.nextInt();
-		
-		//double insideCircle=0;
-		//double outsideCircle=0;
-		
+
+		int r =radius;
 		double [][][] randomSet = new double [set][1][2];
 		for(int i =0;i<randomSet.length;i++){
 			for(int j =0;j<randomSet[i].length;j++){
@@ -40,7 +36,7 @@ public class randomSetgenerate {
 				double x = randomSet[i][j][0];
 				double y = randomSet[i][j][1];
 				//System.out.println("x :"+x+" y :"+y);
-				distance[i]=(double)Math.sqrt(((x-x1)*(x-x1) +(y-y1)*(y-y1)));	
+				distance[i]=(double)Math.sqrt(((r-x)*(r-x) +(r-y)*(r-y)));	
 				
 			}		
 		}
@@ -49,7 +45,7 @@ public class randomSetgenerate {
 	
 		
 		try { 
-			PrintStream myconsole =  new PrintStream(new File("D:/trial//java.txt"));
+			PrintStream myconsole =  new PrintStream(new File("D:/trial//PiCalculationInput.txt"));
 			System.setOut(myconsole);
 			for(int i =0; i< distance.length;i++){
 			if(distance[i]<1) 
@@ -66,3 +62,4 @@ public class randomSetgenerate {
 		
 	}
 }
+
