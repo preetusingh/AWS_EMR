@@ -30,7 +30,7 @@ login AWS account, Go to Services and select EC2
 In EC2, Click on Key Pairs , create a Key Pair and store it in your local machine.
 
 ####Creating S3 Bucket
-Go to Services and select S3
+Go to Services and select S3.
 In S3, Create bucket by providing bucket name and region where you want to create your bucket.
 Click on created bucket and  create seven folders named as Data, Logs, Results and Jobs.
 Now  upload appropriate files into the folders
@@ -40,7 +40,7 @@ a. Upload the PiValue.jar file into Jobs folder
 b. Upload the PiCalculationInput.txt file into Data folder 
 
 ####Creating Cluster 
-Go to Services and Click on Elastic MapReduce in the AWS console management
+Go to Services and Click on Elastic MapReduce in the AWS console management.
 Click on create cluster.
 Provide the cluster details
 
