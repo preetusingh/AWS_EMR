@@ -18,7 +18,7 @@ radius = sqrt((r-x)^2+(r-y)^2)
 
 ###Part 1:
 Generated 2,000,000 Random number of double type along with user input for radius and stored
-in a file as PiCalculationInput.txt using randomSetgenerate.java.
+in a file as PiCalculationInput.txt using RandomSetGenerate.java.
 
 ###Part2: 
 Write MapReduce program to calculate Pi value.
