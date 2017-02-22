@@ -128,7 +128,8 @@ h. Again in Steps, select the Custom JAR and click on Configure and provide the 
 i. After completion go to the S3bucket and in LookUpResults folder we can see the output file.
 
 ##Result
-Right click on the output file and click on download and open the file with notepad
+Right click on the output file and click on download and open the file with notepad. We can see our expected output.
+
 
 
 
