@@ -5,6 +5,7 @@
 ##Estimating pi by random sampling
 
 ![image](pi.png)
+![image](Dart.png)
 
 Imagine if you have dart board as shown in image then 
 pi is the (ratio of darts that land inside the circle(S) to the total number of darts thrown(N)) times 4 
