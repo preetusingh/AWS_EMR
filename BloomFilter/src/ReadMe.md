@@ -93,30 +93,42 @@ Create Training.jar file using Training.java and LookUp.jar using LookUp.java an
 
 ###Setting up an EC2 key pair
 login AWS account, Go to Services and select EC2
-In EC2, Click on Key Pairs , create a Key Pair and store it in your local machine.
+In EC2, Click on Key Pairs, create a Key Pair and store it in your local machine.
 
 ###Creating S3 Bucket
 Go to Services and select S3
 In S3, Create bucket by providing bucket name and region where you want to create your bucket.
 Click on created bucket and  create seven folders named as TrainingData, Logs, TrainingResults, TrainingJobs, LookUpData, LookUpJobs and LookUpResults
 Now  upload appropriate files into the folders
+
 a. Upload the Training.jar file into TrainingJobs folder and LookUp.jar in LookUpJobs folder
+
 b. Upload the input text file into TrainingData folder 
 
 ###Creating Cluster 
 Go to Services and Click on Elastic MapReduce in the AWS console management
-Click on create cluster
-Provide the cluster details 
+Click on create cluster. Provide the cluster details 
+
 a. Give the Cluster name and select the log folder
+
 b. Select the key pair which we have created
+
 c. After completing all the details click on Create cluster
-d. The cluster will start within 10-15 minutes.
-e. In Steps, select the Custom JAR and click on Configure and Add and provide the JAR location and arguments details and save it
-f. After completion go to the S3bucket and in TrainingResults folder we can see the output file.
+
+d. The cluster will start within 10-15 minutes
+
+e. In Steps, select the Custom JAR and click on Configure and provide the JAR location(Training.jar) and arguments details and save it
+
+f. After completion go to the S3bucket and in TrainingResults folder we can see the output file
+
 g. Now upload the outputfile in LookUpData folder as output of Training phase will be treated as input of LookUp phase
-h. Again in Steps, select the Custom JAR and click on Configure and Add and provide the JAR location (LookUp.jar) and arguments details and save it
+
+h. Again in Steps, select the Custom JAR and click on Configure and provide the JAR location(LookUp.jar) and arguments details and save it
+
 i. After completion go to the S3bucket and in LookUpResults folder we can see the output file.
-g. Right click on the output file and click on download and open the file with notepad
+
+##Result
+Right click on the output file and click on download and open the file with notepad
 
 
 
