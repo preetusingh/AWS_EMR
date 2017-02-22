@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 
-public class randomSetgenerate {
+public class RandomSetGenerate {
 
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
@@ -35,7 +35,7 @@ public class randomSetgenerate {
 			for(int j =0;j<randomSet[i].length;j++){
 				double x = randomSet[i][j][0];
 				double y = randomSet[i][j][1];
-				//System.out.println("x :"+x+" y :"+y);
+				
 				distance[i]=(double)Math.sqrt(((r-x)*(r-x) +(r-y)*(r-y)));	
 				
 			}		
