@@ -13,6 +13,18 @@ radius = sqrt((r-x)^2+(r-y)^2)
 
 ###4 * S/N = 4* (pi * r * r)/(2 r)^2 = 4 * pi * r * r / 4 * r * r = pi
 
+##Prerequisites
+
+Download the below mentioned jars and configure into project build path 
+
+hadoop-common-2.7.0.jar
+
+hadoop-core-0.20.2.jar
+
+org.apache.commons.cli-1.2.0.jar
+
+JRE System Library[JavaSE-1.7] or above
+
 
 ##Project creation and execution steps
 
