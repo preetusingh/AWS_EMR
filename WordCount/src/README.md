@@ -53,9 +53,9 @@ login AWS account, Go to Services and select EC2 In EC2, Click on Key Pairs , cr
 
 Go to Services and select S3. In S3, Create bucket by providing bucket name and region where you want to create your bucket. Click on created bucket and create seven folders named as Data, Logs, Results and Jobs. Now upload appropriate files into the folders
 
-a. Upload the PiValue.jar file into Jobs folder
+a. Upload the WordCount.jar file into Jobs folder
 
-b. Upload the PiCalculationInput.txt file into Data folder
+b. Upload the File1.txt file into Data folder
 
 ####Creating Cluster
 
