@@ -74,12 +74,16 @@ The numbers to be looked up
  9 ==> It is not in the set because array[0] is 0 ==> True negative
     
 
-
 ##Prerequisites
-a. Download the below mentioned jars and configure into project build path
+
+a. Download the below mentioned jars and configure into project build path 
+
 hadoop-common-2.7.0.jar
+
 hadoop-core-0.20.2.jar
+
 org.apache.commons.cli-1.2.0.jar
+
 JRE System Library[JavaSE-1.7] or above
 
 b. Download substantial amount of data from stackoverflow.com
