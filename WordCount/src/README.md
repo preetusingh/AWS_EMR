@@ -14,16 +14,25 @@ how now brown cow
     
 there is only one reduce task
 
+
 then output will show the word count done by the mapper and reducer as. 
 
 ate,1
+
 brown,2
+
 cow,1
+
 fox,2
+
 how,1
+
 mouse,1
+
 now,1
+
 quick,1
+
 the,3
 
 
