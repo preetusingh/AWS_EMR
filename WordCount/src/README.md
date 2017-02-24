@@ -7,7 +7,9 @@ WordCount is a simple application that counts the number of occurrences of each 
 If file1 has 3 lines
 
 the quick brown fox
+
 the fox ate the mouse
+
 how now brown cow
     
 there is only one reduce task
