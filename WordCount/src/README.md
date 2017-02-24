@@ -40,7 +40,7 @@ org.apache.commons.cli-1.2.0.jar
 JRE System Library[JavaSE-1.7] or above
 
 
-###Project creation and execution steps
+##Project creation and execution steps
 
 Write WordCount program in Eclipse and export it into a jar named as WordCount.jar.
 
@@ -73,6 +73,6 @@ e. In Steps, select the Custom JAR and click on Configure and provide the JAR lo
 
 f. After completion go to the S3bucket and in Results folder we can see the output file.
 
-###Result
+##Result
 
 Right click on the output file and click on download and open the file with notepad.We can see our expected output.
