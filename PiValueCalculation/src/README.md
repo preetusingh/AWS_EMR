@@ -1,6 +1,6 @@
 
 
-#Monte Carlo Pi Computation implementation using MapReduce 
+#Implementation of Monte Carlo Pi Computation using MapReduce in AWS Environment
 
 ##Estimating pi by random sampling
 
