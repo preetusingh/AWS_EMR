@@ -1,5 +1,5 @@
 
-#Implementation of Histogram to the frequency of numbers occured in a file using AWS Environment
+#Implementation of Histogram to find the frequency of numbers occured in a file using AWS Environment
 
 
 ####Example
