@@ -8,3 +8,6 @@ This repository includes the below mentioned programs:
 
 3. Implementation of Bloom Filter using stackoverflow.com data in AWS Environment
 
+4. Implementation of Histogram to find the frequency of numbers occured in a file using AWS Environment
+
+
